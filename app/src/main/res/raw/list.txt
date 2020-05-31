@@ -7,6 +7,7 @@ Cam Scanner,com.intsig.camscanner,com.microsoft.office.officelens,Microsoft Offi
 Xender,cn.xender,com.estmob.android.sendanywhere,Send Anywhere
 Mi Fit,com.xiaomi.hm.health,com.mc.miband1,Notify & Fitness for Mi Band
 Helo,app.buzz.share,,
+PUBG MOBILE LITE,com.tencent.iglite,,
 TikTok,com.zhiliaoapp.musically,,
 TikTok Lite,com.zhiliaoapp.musically.go,,
 BeautyPlus,com.commsource.beautyplus,
@@ -26,9 +27,9 @@ ShareSave by Xiaomi,com.mi.global.jointly
 Kwai,com.kwai.video,LiveMe,,
 Bigo Live,sg.bigo.live,
 Vigo Video,com.ss.android.ugc.boom,
-PUBG,,
-Clash of Kings,,
-Mobile Legends,,
+PUBG,com.tencent.iglite,
+Clash of Kings,com.tencent.iglite,
+Mobile Legends,com.tencent.iglite,
 Shein,,
 Romwe,,
 Club Factory,,
