@@ -1,43 +1,43 @@
 
-Helo,app.buzz.share,,
 SHAREit,com.lenovo.anyshare.gps,com.estmob.android.sendanywhere,Send Anywhere
+UCBrowser,com.UCMobile.intl,com.android.chrome,Google Chrome: Fast & Secure
+UCBrowser Mini,com.uc.browser.en,org.mozilla.rocket,Firefox Lite
+UC Browser Turbo,com.ucturbo,com.android.chrome,Google Chrome: Fast & Secure
+Cam Scanner,com.intsig.camscanner,com.microsoft.office.officelens,Microsoft Office Lens - PDF Scanner
+Xender,cn.xender,com.estmob.android.sendanywhere,Send Anywhere
+Mi Fit,com.xiaomi.hm.health,com.mc.miband1,Notify & Fitness for Mi Band
+Helo,app.buzz.share,,
 TikTok,com.zhiliaoapp.musically,,
 TikTok Lite,com.zhiliaoapp.musically.go,,
+BeautyPlus,com.commsource.beautyplus,
+AppLock,com.domobile.applockwatcher,
 likee,video.like,,
 Likee Lite,video.like.lite,
 Helo Lite,app.buzz.share.lite,
-Kwai,,
-UCBrowser,com.UCMobile.intl,com.android.chrome,Google Chrome: Fast & Secure
-UCBrowser Mini,com.uc.browser.en,com.opera.mini.native,Opera Mini - fast web browser
-UC Browser Turbo,com.ucturbo,com.android.chrome,Google Chrome: Fast & Secure
-LiveMe,,
-Bigo Live,,
-Vigo Video,,
-BeautyPlus,com.commsource.beautyplus,
-Xender,cn.xender,com.estmob.android.sendanywhere,Send Anywhere
-Cam Scanner,com.intsig.camscanner,com.microsoft.office.officelens,Microsoft Office Lens - PDF Scanner
-PUBG,,
-Clash of Kings,,
-Mobile Legends,,
-Shein,,
-Romwe,,
-AppLock,com.domobile.applockwatcher,
-Club Factory,,
-VMate,,
-Game of Sultans,,
-Mafia City,,
-Battle of Empires,,
 UVideo,com.kwai.global.video.social.kwaigo,
 PLAYit,com.playit.videoplayer,
 VFly,com.ai.bfly,
-WATCHit,
 Turbo vpn,free.vpn.unblock.proxy.turbovpn
 U dictionary,com.youdao.hindict
 WPS office,cn.wps.moffice_eng
 Mi Community,com.mi.global.bbs
 Mi Store,com.mi.global.shop
-Mi Fit,com.xiaomi.hm.health,com.mc.miband1,Notify & Fitness for Mi Band
 ShareSave by Xiaomi,com.mi.global.jointly
+Kwai,,
+LiveMe,,
+Bigo Live,,
+Vigo Video,,
+PUBG,,
+Clash of Kings,,
+Mobile Legends,,
+Shein,,
+Romwe,,
+Club Factory,,
+VMate,,
+Game of Sultans,,
+Mafia City,,
+Battle of Empires,,
+WATCHit,
 mi,com.mi//.*
 xiaomi,com.xiaomi.*
 miui,com.miui.*
