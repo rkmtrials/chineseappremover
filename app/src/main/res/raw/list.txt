@@ -23,10 +23,9 @@ WPS office,cn.wps.moffice_eng
 Mi Community,com.mi.global.bbs
 Mi Store,com.mi.global.shop
 ShareSave by Xiaomi,com.mi.global.jointly
-Kwai,,
-LiveMe,,
-Bigo Live,,
-Vigo Video,,
+Kwai,com.kwai.video,LiveMe,,
+Bigo Live,sg.bigo.live,
+Vigo Video,com.ss.android.ugc.boom,
 PUBG,,
 Clash of Kings,,
 Mobile Legends,,
