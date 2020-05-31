@@ -7,15 +7,15 @@ likee,video.like,,
 Likee Lite,video.like.lite,
 Helo Lite,app.buzz.share.lite,
 Kwai,,
-UCBrowser,com.UCMobile.intl,
-UCBrowser Mini,,
-UC Browser Turbo,com.ucturbo,
+UCBrowser,com.UCMobile.intl,com.android.chrome,Google Chrome: Fast & Secure
+UCBrowser Mini,com.uc.browser.en,com.opera.mini.native,Opera Mini - fast web browser
+UC Browser Turbo,com.ucturbo,com.android.chrome,Google Chrome: Fast & Secure
 LiveMe,,
 Bigo Live,,
 Vigo Video,,
 BeautyPlus,com.commsource.beautyplus,
 Xender,cn.xender,com.estmob.android.sendanywhere,Send Anywhere
-Cam Scanner,,
+Cam Scanner,com.intsig.camscanner,com.microsoft.office.officelens,Microsoft Office Lens - PDF Scanner
 PUBG,,
 Clash of Kings,,
 Mobile Legends,,
@@ -36,6 +36,7 @@ U dictionary,com.youdao.hindict
 WPS office,cn.wps.moffice_eng
 Mi Community,com.mi.global.bbs
 Mi Store,com.mi.global.shop
+Mi Fit,com.xiaomi.hm.health,com.mc.miband1,Notify & Fitness for Mi Band
 ShareSave by Xiaomi,com.mi.global.jointly
 mi,com.mi//.*
 xiaomi,com.xiaomi.*
