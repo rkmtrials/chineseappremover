@@ -3,6 +3,8 @@
 // App Name , APP PACKAGE NAME,  Alternative Package Name,  Alternative App Name , Country, Danger Level
 AppLock,com.domobile.applockwatcher,com.sp.protector.free,AppLock - Fingerprint(korean)
 Cam Scanner,com.intsig.camscanner,com.microsoft.office.officelens,Microsoft Office Lens
+Chess Rush,com.tencent.godgame,com.llx.chess,Chess
+Ludo World-Ludo Superstar,com.tencent.ludosuperstar,com.ludo.king,Ludo King
 Mi Fit,com.xiaomi.hm.health,com.mc.miband1,Notify & Fitness for Mi Band
 SHAREit,com.lenovo.anyshare.gps,com.estmob.android.sendanywhere,Send Anywhere
 UCBrowser,com.UCMobile.intl,com.android.chrome,Google Chrome: Fast & Secure
@@ -11,7 +13,11 @@ UC Browser Turbo,com.ucturbo,com.android.chrome,Google Chrome: Fast & Secure
 Xender,cn.xender,com.estmob.android.sendanywhere,Send Anywhere
 
 // App Name , APP PACKAGE NAME
+Abi: A Robot's Tale,com.Lilith.Abi,
+AFK Arena,com.lilithgames.hgame.gp.id,
 April - Camera360,us.pinguo.april_collage,
+Arena of Valor,com.ngame.allstar.eu
+Art of Conquest: Dark Horizon,com.lilithgame.sgame.gp.oss,
 Beauty Camera Plus,com.beauty.camera.youcam.makeup.photo.editor.plus,
 Bestie - Camera360 Beauty Cam,us.pinguo.selfie,
 BeautyPlus,com.commsource.beautyplus,
@@ -20,14 +26,22 @@ Bigo Live,sg.bigo.live,
 Camera360:,vStudio.Android.Camera360,
 Camera360 Lite-Selfie Camera,com.pinguo.camera360lite,
 Clash of Kings,com.hcg.cok.gp,
+Clash of Kings:The West,com.hcg.ctw.gp,
+Clash of Queens,com.elex.coq.gp,
 Club Factory,club.fromfactory,
+Dank Tanks,com.lilithgame.tgames.gp,
 Game of Sultans,com.dc.hwsj,
 Helo,app.buzz.share,,
 Helo Lite,app.buzz.share.lite,
+Heroes War,com.hcg.tos.gp,
 HD Camera Selfie Beauty Camera,photo.selfie.beauty.candy.camera,
+Identity V-Danganronpa first Crossover has started,com.netease.idv.googleplay,
 iQIYI Video,com.iqiyi.i18n,
+Isoland 2: Ashes of Time,com.lilithgame.isoland2.gpen,
+Isoland 2: Ashes of Time Lite,com.lilithgame.isoland2.gp.mf,
 likee,video.like,,
 Likee Lite,video.like.lite,
+LifeAfter,com.netease.mrzhna,
 Kwai,com.kwai.video,LiveMe,,
 Mafia City,com.yottagames.mafiawar,
 Mi Community,com.mi.global.bbs
@@ -35,6 +49,7 @@ Mi Store,com.mi.global.shop
 Mi Music,com.miui.player,
 MIX - Photo Editor Pro,com.pinguo.edit.sdk,
 Mobile Legends,com.mobile.legends,
+Mr Pumpkin 2: Walls of Kowloon,com.lilithgames.mrpumpkin2.gp,
 Perface by Camera360,us.pinguo.perface,
 PLAYit,com.playit.videoplayer,
 PUBG,com.tencent.ig,
@@ -44,6 +59,7 @@ QQ,com.tencent.mobileqq,
 QQMusic,com.tencent.qqmusic,
 QQmail,com.tencent.androidqqmail,
 QQ English,com.qqeng.online,
+Rise of Kingdom: Lost crusade,com.lilithgame.roc.gp,
 Romwe,com.romwe,
 ShareSave by Xiaomi,com.mi.global.jointly
 Shein,com.zzkko,
@@ -64,6 +80,11 @@ WPS Office Extra Goodies,cn.wps.moffice_extra,
 WPS PDF,cn.wps.pdf,
 WPS PDF Fill & Sign,cn.wps.pdf.fillsign,
 WPS Premium Subscription,cn.wps.moffice_premium,
+Warpath,com.lilithgame.wgame.gp,
+Soul Hunters,us.kick9.k3000000013.c3101000001,
+Stick Fight,com.netease.ddsfna,
+Zombie World SLG 3D,com.zw.zombieworld.gp,
+Zombie 3D Gun Shooter,com.zombieshooting.survivalhunter.gun3d,
 
 // Only Regex Here
 mi,com.mi//.*
