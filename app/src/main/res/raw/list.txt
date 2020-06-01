@@ -1,6 +1,7 @@
 //
 //This is the beginning
 // App Name , APP PACKAGE NAME,  Alternative Package Name,  Alternative App Name , Country, Danger Level
+AppLock,com.domobile.applockwatcher,com.sp.protector.free,AppLock - Fingerprint(korean)
 Cam Scanner,com.intsig.camscanner,com.microsoft.office.officelens,Microsoft Office Lens
 Mi Fit,com.xiaomi.hm.health,com.mc.miband1,Notify & Fitness for Mi Band
 SHAREit,com.lenovo.anyshare.gps,com.estmob.android.sendanywhere,Send Anywhere
@@ -10,7 +11,6 @@ UC Browser Turbo,com.ucturbo,com.android.chrome,Google Chrome: Fast & Secure
 Xender,cn.xender,com.estmob.android.sendanywhere,Send Anywhere
 
 // App Name , APP PACKAGE NAME
-AppLock,com.domobile.applockwatcher,
 April - Camera360,us.pinguo.april_collage,
 Beauty Camera Plus,com.beauty.camera.youcam.makeup.photo.editor.plus,
 Bestie - Camera360 Beauty Cam,us.pinguo.selfie,

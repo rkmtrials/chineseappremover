@@ -1,5 +1,9 @@
 <resources>
-    <string name="app_name">My Application</string>
+    <string name="app_name">Chinese App Remover &amp; Alternatives</string>
     <string name="uninstall">Uninstall APP</string>
     <string name="download">Download Alternative</string>
+    <string name="appID">ca-app-pub-5453528366471630~2121617028</string>
+    <string name="bannerAdID">ca-app-pub-5453528366471630/5881361653</string>
+    <string name="list_of_installed_chinese_apps">List Of Installed Chinese Apps</string>
+    <string name="no_chinese_apps_installed">No Chinese Apps Installed</string>
 </resources>

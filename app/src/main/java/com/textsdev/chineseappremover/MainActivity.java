@@ -1,21 +1,24 @@
 package com.textsdev.chineseappremover;
 
-import androidx.annotation.Nullable;
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.content.Intent;
 import android.content.pm.ApplicationInfo;
 import android.content.pm.PackageManager;
 import android.graphics.drawable.Drawable;
 import android.net.Uri;
 import android.os.Bundle;
-import android.util.Log;
+import android.util.DisplayMetrics;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
+
+import androidx.annotation.Nullable;
+import androidx.appcompat.app.AppCompatActivity;
+
+import com.google.android.gms.ads.AdRequest;
+import com.google.android.gms.ads.AdView;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -30,10 +33,22 @@ public class MainActivity extends AppCompatActivity {
     LinearLayout linearLayout;
     List<String> stringList = new ArrayList<>();
 
+    public static void showAd(AdView viewById) {
+        AdRequest adRequest = new AdRequest.Builder().build();
+        if (viewById != null) {
+            viewById.setVisibility(View.VISIBLE);
+            viewById.loadAd(adRequest);
+        }
+    }
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        showAd((AdView) findViewById(R.id.adView));
+        DisplayMetrics displayMetrics = new DisplayMetrics();
+        getWindowManager().getDefaultDisplay().getMetrics(displayMetrics);
         InputStream inputStream = getResources().openRawResource(R.raw.list);
         BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(inputStream));
         String eachline = null;
@@ -43,7 +58,7 @@ public class MainActivity extends AppCompatActivity {
             while (eachline != null) {
                 // `the words in the file are separated by space`, so to get each words
                 eachline = bufferedReader.readLine();
-                if (eachline != null) {
+                if (eachline != null && !eachline.trim().equals("") && !eachline.startsWith("//")) {
                     aapplist.add(eachline);
                 }
             }
@@ -57,6 +72,7 @@ public class MainActivity extends AppCompatActivity {
 
     private void listPackages(LinearLayout linearLayout) {
         List<ApplicationInfo> packages = getPackageManager().getInstalledApplications(PackageManager.GET_META_DATA);
+        stringList.clear();
         TextView no_app = findViewById(R.id.no_app_tv);
         no_app.setVisibility(View.GONE);
         if (linearLayout != null && linearLayout.getChildCount() > 0) {
@@ -78,8 +94,7 @@ public class MainActivity extends AppCompatActivity {
                         String s = split[0].toLowerCase().replaceAll(" ", "");
                         if (split.length == 1) {
                             String app_name = o.toLowerCase().replaceAll(" ", "");
-                            Log.d("texts", "listPackages: "+s+" "+app_name);
-                            if (s.contains(app_name)|| app_name.contains(s)) {
+                            if (s.contains(app_name) || app_name.contains(s)) {
                                 View view = getLayoutInflater().inflate(R.layout.row_layout, null);
                                 view.setLayoutParams(llp);
                                 setLable_only_uninstall(linearLayout, view, raw_app_name, getPackageManager().getApplicationIcon(a), a.packageName);
@@ -105,7 +120,7 @@ public class MainActivity extends AppCompatActivity {
                                 if (s.equals(app_name) || equals) {
                                     View view = getLayoutInflater().inflate(R.layout.row_layout, null);
                                     view.setLayoutParams(llp);
-                                    set_label_uninstall_download(linearLayout, raw_app_name, split[3], view, getPackageManager().getApplicationIcon(a), packageName);
+                                    set_label_uninstall_download(linearLayout, raw_app_name, split[3], view, getPackageManager().getApplicationIcon(a), packageName, split[2]);
                                     i++;
                                 }
 
@@ -117,15 +132,13 @@ public class MainActivity extends AppCompatActivity {
                 }
             }
         }
-        if(i == 0)
-        {
+        if (i == 0) {
             no_app.setVisibility(View.VISIBLE);
         }
     }
 
-    private void set_label_uninstall_download(LinearLayout linearLayout, String app_name, String alt_name, View view, Drawable icon, final String packageName) {
-        if(!stringList.contains(packageName))
-        {
+    private void set_label_uninstall_download(LinearLayout linearLayout, String app_name, final String alt_name, View view, Drawable icon, final String packageName, final String alt_package) {
+        if (!stringList.contains(packageName)) {
 
             Button removebtn = view.findViewById(R.id.uninstall_btn);
             Button alt_download_button = view.findViewById(R.id.download_btn);
@@ -147,7 +160,7 @@ public class MainActivity extends AppCompatActivity {
                 @Override
                 public void onClick(View v) {
                     Intent intent = new Intent(Intent.ACTION_VIEW);
-                    intent.setData(Uri.parse("https://play.google.com/store/apps/details?id=" + packageName));
+                    intent.setData(Uri.parse("https://play.google.com/store/apps/details?id=" + alt_package));
                     startActivity(intent);
                 }
             });
@@ -157,8 +170,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void setLable_only_uninstall(LinearLayout linearLayout, View view, String app_name, Drawable icon, final String packageName) {
-        if(!stringList.contains(packageName))
-        {
+        if (!stringList.contains(packageName)) {
 
             Button removebtn = view.findViewById(R.id.uninstall_btn);
             ImageView icon_image = view.findViewById(R.id.icon_view);

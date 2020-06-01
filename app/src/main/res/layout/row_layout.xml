@@ -17,6 +17,9 @@
         android:layout_height="match_parent"
         android:layout_gravity="center"
         android:layout_weight="1"
+        android:adjustViewBounds="true"
+        android:maxWidth="75dp"
+        android:maxHeight="10dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
@@ -25,7 +28,7 @@
     <LinearLayout
         android:id="@+id/linearLayout"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:layout_weight="1"
         android:orientation="vertical"
@@ -47,12 +50,12 @@
         <Button
             android:id="@+id/uninstall_btn"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:gravity="center"
+            android:layout_height="wrap_content"
             android:layout_margin="10dp"
+            android:layout_weight="1"
             android:background="@drawable/button_bg"
             android:elevation="3dp"
+            android:gravity="center"
             android:padding="5dp"
             android:text="@string/uninstall" />
     </LinearLayout>
@@ -60,7 +63,7 @@
     <LinearLayout
         android:id="@+id/alt_ll"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:layout_marginStart="1dp"
         android:layout_weight="1"
@@ -84,12 +87,12 @@
         <Button
             android:id="@+id/download_btn"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:gravity="center"
+            android:layout_height="wrap_content"
             android:layout_margin="10dp"
+            android:layout_weight="1"
             android:background="@drawable/button_bg"
             android:elevation="3dp"
+            android:gravity="center"
             android:padding="5dp"
             android:text="@string/download" />
     </LinearLayout>
