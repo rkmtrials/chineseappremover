@@ -1,11 +1,15 @@
-
-Cam Scanner,com.intsig.camscanner,com.microsoft.office.officelens,Microsoft Office Lens - PDF Scanner
+//
+//This is the beginning
+// App Name , APP PACKAGE NAME,  Alternative Package Name,  Alternative App Name , Country, Danger Level
+Cam Scanner,com.intsig.camscanner,com.microsoft.office.officelens,Microsoft Office Lens
 Mi Fit,com.xiaomi.hm.health,com.mc.miband1,Notify & Fitness for Mi Band
 SHAREit,com.lenovo.anyshare.gps,com.estmob.android.sendanywhere,Send Anywhere
 UCBrowser,com.UCMobile.intl,com.android.chrome,Google Chrome: Fast & Secure
 UCBrowser Mini,com.uc.browser.en,org.mozilla.rocket,Firefox Lite
 UC Browser Turbo,com.ucturbo,com.android.chrome,Google Chrome: Fast & Secure
 Xender,cn.xender,com.estmob.android.sendanywhere,Send Anywhere
+
+// App Name , APP PACKAGE NAME
 AppLock,com.domobile.applockwatcher,
 April - Camera360,us.pinguo.april_collage,
 Beauty Camera Plus,com.beauty.camera.youcam.makeup.photo.editor.plus,
@@ -60,6 +64,8 @@ WPS Office Extra Goodies,cn.wps.moffice_extra,
 WPS PDF,cn.wps.pdf,
 WPS PDF Fill & Sign,cn.wps.pdf.fillsign,
 WPS Premium Subscription,cn.wps.moffice_premium,
+
+// Only Regex Here
 mi,com.mi//.*
 xiaomi,com.xiaomi.*
 miui,com.miui.*
